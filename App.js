@@ -16,10 +16,9 @@ const Stack = createNativeStackNavigator();
 function Root() {
   return (
     <Drawer.Navigator drawerContent={props => <DrawerContent {...props} />} >
-      <Drawer.Screen name="FixedExp" component={FixedExp} />
       <Drawer.Screen name="Home" component={HomeScreen} />
       <Drawer.Screen name="Profile" component={ProfileScreen} />
-
+      <Drawer.Screen name="FixedExp" component={FixedExp} />
       <Drawer.Screen name="Notifications" component={NotificationsScreen} />
       <Drawer.Screen name="Settings" component={SettingsScreen} />
     </Drawer.Navigator>
