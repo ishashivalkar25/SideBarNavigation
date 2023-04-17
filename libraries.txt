@@ -10,7 +10,6 @@ npm i firebase
 npm i @react-native-community/datetimepicker
 npm i react-native-animatable
 npm i react-native-linear-gradient
-npm i @react-native-community/datetimepicker
 
 npm uninstall @react-navigation/drawer
 npm uninstall react-native-gesture-handler
